@@ -7,6 +7,6 @@
  * This is a function declaration.
  * It tells the compiler that the function exists somewhere.
  */
-void foo(int id, char *name);
+void func(int choice);
 
 #endif /* FUNC_DOT_H */
