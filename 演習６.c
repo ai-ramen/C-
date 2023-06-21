@@ -9,16 +9,16 @@
 #include <stdio.h>
 
 int main() {
-    int i, a, b, c;
-    a = 0;
-    b = 1;
+    int i, a = 0, b = 2, c;
+
     printf("0\n1\n");
+    
     do{
         printf("%d + %d = %d\n", a, b, a+b);
-        c = a+b;
+        c = a + b;
         a = b;
         b = c;
-    }while((a+b) <= 1000);
+    }while((a + b) <= 1000);
         
     return 0;
 }

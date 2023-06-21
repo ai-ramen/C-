@@ -11,8 +11,8 @@ int main() {
     scanf("%f", &radius);
     
     printf("半径 : %.2f\n", radius);
-    printf("演習 : %.2f\n", 2*M_PI*radius);
-    printf("面積 : %.2f\n", M_PI*pow(radius, 2.0));
+    printf("演習 : %.2f\n", 2 * M_PI * radius);
+    printf("面積 : %.2f\n", M_PI * pow(radius, 2.0));
     
     return 0;
 }

@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 int main() {
-    int num, sum, count;
-    sum = count = 0;
+    int num = 0, sum = 0, count = 0;
     
     do{
         printf("Input a number: \n");
@@ -13,7 +12,7 @@ int main() {
         count ++;
     }while(num != 0);
     
-    printf("平均 : %d", sum/(count-1));
+    printf("平均 : %d", sum / (count - 1));
     
     return 0;
 }

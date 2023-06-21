@@ -3,19 +3,18 @@
 
 #include <stdio.h>
 
-void returnDouble(int *num);
+void ReturnDouble(int *num);
 
 int main() {
-    int num;
-    num = 4;
+    int num = 4;
     
     printf("before : %d\n", num);
-    returnDouble(&num);
+    ReturnDouble(&num);
     printf("after : %d", num);
     
     return 0;
 }
 
-void returnDouble(int *num){
-    (*num) = (*num)*2;
+void ReturnDouble(int *num){
+    (*num) = (*num) * 2;
 }

@@ -10,9 +10,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-void isZeroPlusMinus(int num);
-void isOdd(int num);
-void isPrime(int num);
+void IsZeroPlusMinus(int num);
+void IsOddEven(int num);
+void IsPrime(int num);
 
 int main() {
     int num;
@@ -20,13 +20,14 @@ int main() {
     printf("Input a number: \n");
     scanf("%d", &num);
 
-    isZeroPlusMinus(num);
-    isOdd(num);
-    isPrime(num);
+    IsZeroPlusMinus(num);
+    IsOddEven(num);
+    IsPrime(num);
+
     return 0;
 }
 
-void isZeroPlusMinus(int num) {
+void IsZeroPlusMinus(int num) {
     char result[10];
 
     if (num == 0) {
@@ -38,7 +39,7 @@ void isZeroPlusMinus(int num) {
     }
 }
 
-void isOdd(int num) {
+void IsOddEven(int num) {
     if (num == 0) {
         printf("----------\n");
     } else if (num % 2 == 0) {
@@ -46,10 +47,9 @@ void isOdd(int num) {
     } else {
         printf("奇数\n");
     }
-
 }
 
-void isPrime(int num) {
+void IsPrime(int num) {
     int i;
     char result[20];
     strcpy(result, "素数");
@@ -65,7 +65,6 @@ void isPrime(int num) {
             }
         }
     }
-    
-    
+
     puts(result);
 }
