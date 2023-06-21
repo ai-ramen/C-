@@ -7,12 +7,12 @@
 int main() {
     float radius, length, area;
     
-    printf("Input a radius: \n");
+    printf("Input 半径: \n");
     scanf("%f", &radius);
     
-    printf("radius is %.2f\n", radius);
-    printf("length is %.2f\n", 2*M_PI*radius);
-    printf("area is %.2f\n", M_PI*pow(radius, 2.0));
+    printf("半径 : %.2f\n", radius);
+    printf("演習 : %.2f\n", 2*M_PI*radius);
+    printf("面積 : %.2f\n", M_PI*pow(radius, 2.0));
     
     return 0;
 }

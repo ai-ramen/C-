@@ -7,7 +7,7 @@ void returnDouble(int *num);
 
 int main() {
     int num;
-    num = 1;
+    num = 4;
     
     printf("before : %d\n", num);
     returnDouble(&num);

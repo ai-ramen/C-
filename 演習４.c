@@ -13,7 +13,7 @@ int main() {
         count ++;
     }while(num != 0);
     
-    printf("average is %d", sum/(count-1));
+    printf("平均 : %d", sum/(count-1));
     
     return 0;
 }

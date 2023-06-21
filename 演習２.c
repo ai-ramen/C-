@@ -17,7 +17,7 @@ void isPrime(int num);
 int main() {
     int num;
     
-    printf("Type a number: \n");
+    printf("Input a number: \n");
     scanf("%d", &num);
 
     isZeroPlusMinus(num);
@@ -29,49 +29,43 @@ int main() {
 void isZeroPlusMinus(int num) {
     char result[10];
 
-    if (num < 0) {
-        strcpy(result, "Negative");
+    if (num == 0) {
+        printf("ZERO\n");
     } else if (num > 0) {
-        strcpy(result, "Positive");
+        printf("正の整数\n");
     } else {
-        strcpy(result, "Zero");
+        printf("負の整数\n");
     }
-
-    puts(result);
 }
 
 void isOdd(int num) {
-    char result[10];
-
     if (num == 0) {
-        strcpy(result, "----------");
-    } else if (num %2 == 0) {
-        strcpy(result, "Even");
+        printf("----------\n");
+    } else if (num % 2 == 0) {
+        printf("偶数\n");
     } else {
-        strcpy(result, "Odd");
+        printf("奇数\n");
     }
 
-    puts(result);
 }
 
 void isPrime(int num) {
-    char result[10];
-    strcpy(result, "Prime");
     int i;
-    
+    char result[20];
+    strcpy(result, "素数");
+
     if(num == 0 || num == 1){
-        strcpy(result, "Not Prime");
+        strcpy(result, "素数じゃない");
     }else{
-        for(i = 2; i < num; i++){
+        for(i = 2; i < abs(num); i++){
         
-        if(num%i == 0){
-            strcpy(result, "Not Prime");
-            i = num;
+            if(num%i == 0){
+                strcpy(result, "素数じゃない");
+                i = abs(num);
+            }
         }
     }
-    }
     
     
-
     puts(result);
 }
