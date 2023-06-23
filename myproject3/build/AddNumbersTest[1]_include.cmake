@@ -1,0 +1,5 @@
+if(EXISTS "/Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/AddNumbersTest[1]_tests.cmake")
+  include("/Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/AddNumbersTest[1]_tests.cmake")
+else()
+  add_test(AddNumbersTest_NOT_BUILT AddNumbersTest_NOT_BUILT)
+endif()

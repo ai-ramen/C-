@@ -39,7 +39,7 @@ void IsZeroPlusMinus(int num) {
     }
 }
 
-void IsOddEven(int num) {
+void IsOddEven(int num){
     if (num == 0) {
         printf("----------\n");
     } else if (num % 2 == 0) {
@@ -49,17 +49,17 @@ void IsOddEven(int num) {
     }
 }
 
-void IsPrime(int num) {
+void IsPrime(int num){
     int i;
     char result[20];
     strcpy(result, "素数");
 
-    if(num == 0 || num == 1){
+    if (num == 0 || num == 1) {
         strcpy(result, "素数じゃない");
-    }else{
-        for(i = 2; i < abs(num); i++){
+    } else {
+        for (i = 2; i < abs(num); i++) {
         
-            if(num%i == 0){
+            if (num%i == 0) {
                 strcpy(result, "素数じゃない");
                 i = abs(num);
             }

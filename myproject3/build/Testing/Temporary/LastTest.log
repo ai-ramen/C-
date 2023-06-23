@@ -1,0 +1,57 @@
+Start testing: Jun 23 11:41 JST
+----------------------------------------------------------
+1/2 Testing: AdditionTest.PositiveNumbers
+1/2 Test: AdditionTest.PositiveNumbers
+Command: "/Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/AddNumbersTest" "--gtest_filter=AdditionTest.PositiveNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/jollibuyogayoo/Documents/c-exercises/myproject3/build
+"AdditionTest.PositiveNumbers" start time: Jun 23 11:41 JST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdditionTest.PositiveNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdditionTest
+[ RUN      ] AdditionTest.PositiveNumbers
+[       OK ] AdditionTest.PositiveNumbers (0 ms)
+[----------] 1 test from AdditionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AdditionTest.PositiveNumbers" end time: Jun 23 11:41 JST
+"AdditionTest.PositiveNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: AdditionTest.NegativeNumbers
+2/2 Test: AdditionTest.NegativeNumbers
+Command: "/Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/AddNumbersTest" "--gtest_filter=AdditionTest.NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: /Users/jollibuyogayoo/Documents/c-exercises/myproject3/build
+"AdditionTest.NegativeNumbers" start time: Jun 23 11:41 JST
+Output:
+----------------------------------------------------------
+Running main() from /Users/jollibuyogayoo/Documents/c-exercises/myproject3/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = AdditionTest.NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdditionTest
+[ RUN      ] AdditionTest.NegativeNumbers
+[       OK ] AdditionTest.NegativeNumbers (0 ms)
+[----------] 1 test from AdditionTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"AdditionTest.NegativeNumbers" end time: Jun 23 11:41 JST
+"AdditionTest.NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 23 11:41 JST
