@@ -6,7 +6,7 @@ C_DEFINES =
 
 C_INCLUDES = 
 
-C_FLAGSx86_64 =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+C_FLAGSx86_64 = -g -O0 -fprofile-arcs -ftest-coverage -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
-C_FLAGS =  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+C_FLAGS = -g -O0 -fprofile-arcs -ftest-coverage -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

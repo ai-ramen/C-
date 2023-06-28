@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(myproject3)
+project(myproject3_2)
 
 # GoogleTest requires at least C++14
 set(CMAKE_CXX_STANDARD 14)
@@ -30,6 +30,7 @@ add_executable(
 
 # Set compiler flags for coverage ビルドオプションの設定
 set(CMAKE_CXX_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
+set(CMAKE_C_FLAGS "-g -O0 -fprofile-arcs -ftest-coverage")
 
 ####
 # set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} --coverage") # 追加
